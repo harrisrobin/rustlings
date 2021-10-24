@@ -12,6 +12,16 @@
 // Put your function here!
 // fn calculate_apple_price {
 
+fn calculate_apple_price(appleQty: i32) -> i32 {
+    let mut pricePerApple = 2;
+    if(appleQty > 40) {
+        pricePerApple = 1;
+    }
+    return pricePerApple * appleQty;
+}
+
+
+
 // Don't modify this function!
 #[test]
 fn verify_test() {
