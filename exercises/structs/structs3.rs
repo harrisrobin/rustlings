@@ -73,7 +73,7 @@ mod tests {
         let sender_country = String::from("Spain");
         let recipient_country = String::from("Spain");
 
-        let cents_per_gram = 3;
+        let cents_per_gram = 3 as f32;
 
         let package = Package::new(sender_country, recipient_country, 1500);
 
